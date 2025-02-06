@@ -3,6 +3,21 @@ name = "rs-sort-uniq-count"
 version = "0.1.0"
 edition = "2021"
 
+description = "fast sort & uniq & count(like sort | uniq -c) using 1/10 ram"
+license = "Apache-2.0"
+documentation = "https://docs.rs/crate/rs-sort-uniq-count/latest"
+repository = "https://github.com/takanoriyanagitani/rs-sort-uniq-count"
+keywords = [
+        "sort",
+        "uniq",
+        "count",
+        "unique",
+]
+categories = [
+        "command-line-interface",
+        "command-line-utilities",
+]
+
 [lints.rust]
 unsafe_code = "forbid"
 
